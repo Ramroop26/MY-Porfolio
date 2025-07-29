@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+p {
+  margin: 0 !important;
+  color: white !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1a202c !important;
+  color: white !important;
+}
+
+.card {
+  position: relative;
+  background: rgb(255, 0, 179);
+  background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+  transition: 0.3s ease;
+  border-radius: 22px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+.card::after {
+  content: "";
+  background-color: #181818;
+  position: absolute;
+  z-index: 1;
+  transition: 0.3s ease;
+  height: 95%;
+  width: 95%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+.card:hover {
+  filter: drop-shadow(0px 0px 30px rgb(9, 137, 196));
+}
+
+.card-content {
+  width: fit-content;
+  z-index: 99;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.card-content img {
+  padding: 1rem;
+  width: 100%;
+}
+
+.button {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #2c9caf;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #2c9caf;
+  margin-left: 8px;
+}
+
+.button:hover {
+  color: #363131;
+  transform: scale(1.1);
+  outline: 2px solid #70bdca;
+  box-shadow: 4px 5px 17px -4px #268391;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(to right, #00f260, #0575e6);
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.button:hover::before {
+  width: 250%;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 99999;
+  padding: 0 !important;
+}
+
+.button1 {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #2c9caf;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #2c9caf;
+  margin-left: 8px;
+}
+
+.button1:hover {
+  color: #363131;
+  transform: scale(1.1);
+  outline: 2px solid #70bdca;
+  box-shadow: 4px 5px 17px -4px #268391;
+}
+
+.button1::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(to right, #00f260, #0575e6);
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.button1:hover::before {
+  width: 250%;
+}
+
+.hero-section {
+  background-image: url("./components/img/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon-box img {
+  width: 100%;
+}
+
+.icon-box {
+  width: 10%;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.icon-box-container {
+  display: flex;
+  /* margin-top: 1rem; */
+}
+
+.box-text1 {
+  position: relative;
+}
+
+.box-text1::before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 10px;
+  left: 0;
+  bottom: -10px;
+
+  background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero-img-box {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.footer1 {
+  position: relative;
+  z-index: 99;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  /* background: rgba(255, 255, 255, 0) !important; */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px) !important;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-image: url("./components/img/footer-bg1.png");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: bottom;
+}
+
+.card1 {
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.group {
+  position: relative;
+}
+
+.form .group input,
+.form .group textarea {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  width: 100%;
+  background-color: transparent;
+}
+
+.glass-bg1 {
+  border-radius: 0px 10px 10px 0px !important;
+}
+
+.section-heading-box {
+  position: relative;
+}
+
+.section-heading {
+  position: relative;
+  display: inline-block;
+}
+
+.section-heading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  height: 5px;
+  background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+}
+
+.contact-me {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  padding: 1rem 1rem;
+}
+
+.accordian-item:hover .accordian-text {
+  color: black !important;
+}
+
+.card1 input::placeholder {
+  color: lightgray !important;
+}
+
+.card1 textarea::placeholder {
+  color: lightgray !important;
+}
+
+.unknown {
+  color: #9afda9 !important;
+  font-weight: 700;
+}
+
+.glass-bg {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 5px;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+
+  box-shadow: 0px 0px 20px 1px #54e3ebe2;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+
+}
+
+.glass-bg-2 {
+  background: rgba(72, 70, 98, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 5px;
+}
+
+.btn-hover {
+  transition: 0.2s ease-in;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.btn-hover:hover {
+  background-color: #099c89;
+}
