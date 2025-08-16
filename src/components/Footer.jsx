@@ -64,7 +64,7 @@ export default function Footer() {
                   <Box className="d-flex align-items-center px-2">
                     <AiFillGithub fontSize={"40px"} className="mx-2" />
                     <Text fontSize={"20px"} fontWeight={"500"}>
-                      
+                      https://github.com/Ramroop26
                     </Text>
                   </Box>
                   <Box className="d-flex align-items-center px-2">
@@ -82,7 +82,7 @@ export default function Footer() {
                   <Box className="d-flex align-items-center px-2">
                     <FaLinkedin fontSize={"40px"} className="mx-2" />
                     <Text fontSize={"20px"} fontWeight={"500"}>
-                      
+                      https://www.linkedin.com/in/ramroop-prajapati-2b8b08215/
                     </Text>
                   </Box>
                 </Box>

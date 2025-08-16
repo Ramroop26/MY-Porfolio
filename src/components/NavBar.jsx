@@ -84,7 +84,9 @@ export default function Simple() {
           <Flex alignItems={"center"}>
             <Box>
               <Box className="p-3">
-                <button className="button1">Resume</button>
+                <button className="button1" >
+                  <a href="/resume.pdf" download>Resume</a>
+                    </button>
               </Box>
             </Box>
           </Flex>

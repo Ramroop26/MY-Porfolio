@@ -68,7 +68,11 @@ export default function Hero() {
                     direction={{ base: "column", sm: "row" }}
                     className="button-stack py-4"
                   >
-                    <button className="button">Resume</button>
+                    
+                      <button className="button1" >
+                  <a href="/resume.pdf" download>Resume</a>
+                    </button>
+                      
 
                     <ScrollLink
                       to="Contact"

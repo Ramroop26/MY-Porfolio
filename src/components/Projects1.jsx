@@ -120,7 +120,7 @@ export default function Projects() {
                     >
                       <Button
                         as={Link}
-                        to={"https://github.com/prerits590/Pulse.io.git"}
+                        to={""}
                         className="py-1"
                         h={"fit-content"}
                       >
@@ -249,7 +249,7 @@ export default function Projects() {
                     >
                       <Button
                         as={Link}
-                        to={"https://github.com/prerits590/airbnb-clone.git"}
+                        to={""}
                         className="py-1"
                         h={"fit-content"}
                       >
@@ -358,7 +358,7 @@ export default function Projects() {
                     >
                       <Button
                         as={Link}
-                        to={"https://github.com/prerits590/fresh-harvests.git"}
+                        to={""}
                         className="py-1 btn-hover-1"
                         h={"fit-content"}
                       >
@@ -383,7 +383,7 @@ export default function Projects() {
               </Box>
             </Box>
           </Box>
-          {/* <Box className="container px-5 py-3 border my-3 project-card">
+           <Box className="container px-5 py-3 border my-3 project-card">
             <Box className="row">
               <Box padding={"0px"} className=" col-lg-7  col-sm-12">
                 <Box>
@@ -465,7 +465,7 @@ export default function Projects() {
                     >
                       <Button
                         as={Link}
-                        to={"https://github.com/prerits590/food-fusion.git"}
+                        to={""}
                         className="py-1"
                         h={"fit-content"}
                       >
@@ -491,7 +491,323 @@ export default function Projects() {
                 </Box>
               </Box>
             </Box>
-          </Box> */}
+          </Box> 
+
+             <Box className="container px-5 py-3 border my-3 project-card">
+            <Box className="row">
+              <Box padding={"0px"} className=" col-lg-7  col-sm-12">
+                <Box>
+                  <Image
+                    h={"100%"}
+                    objectFit={"cover"}
+                    src={require("./img/thoc.png")}
+                  />
+                </Box>
+              </Box>
+              <Box padding={"0"} className="col-lg-5 col-sm-12">
+                <Box
+                  display={"flex"}
+                  flexDirection={"column"}
+                  border={"1px solid gray"}
+                  justifyContent={"space-evenly"}
+                  h={"100%"}
+                  className="p-2 align-items-evenly"
+                >
+                  <Box className="">
+                    <Text
+                      position={"relative"}
+                      _after={{
+                        content: '""',
+                        position: "absolute",
+                        width: ["10%", "20%", "30%"],
+                        height: ["2px", "5px", "8px"],
+                        left: "0",
+                        bottom: ["-3px", "-10px"],
+                        background:
+                          " linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6)",
+                      }}
+                      className="box-te"
+                      fontSize={["10px", "15px", "30px"]}
+                      fontWeight={"700"}
+                    >
+                      ORTHOC
+                    </Text>
+                  </Box>
+                  <Box className=" icon-boxx d-flex align-items-center">
+                    <Box className=" icon-box-container">
+                      <Box className="icon-box">
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                          alt=""
+                        />
+                      </Box>
+                      <Box className="icon-box">
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                          alt=""
+                        />
+                      </Box>
+                    
+                    </Box>
+                  </Box>
+
+                  <Box className="">
+                    <Text fontSize={["10px", "15px"]}>
+                      A solo project built using HTML, CSS.
+                    </Text>
+                  </Box>
+                  <Box className="pt-1 d-flex">
+                    <Box
+                      w={"fit-content"}
+                      h={"fit-content"}
+                      marginRight={"10px"}
+                    >
+                      <Button
+                        as={Link}
+                        to={"https://github.com/Ramroop26/Orthoc-Website"}
+                        className="py-1"
+                        h={"fit-content"}
+                      >
+                        <Icon fontSize={["1rem", "1.5rem"]} as={AiFillGithub} />
+                      </Button>
+                    </Box>
+                    <Box w={"fit-content"} className="">
+                      <Button
+                        as={Link}
+                        to={
+                          "https://orthoc-website.vercel.app/"
+                        }
+                        className="py-1"
+                        h={"fit-content"}
+                      >
+                        <Icon
+                          fontSize={["1rem", "1.5rem"]}
+                          as={BiLinkExternal}
+                        />
+                      </Button>
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+            </Box>
+          </Box> 
+
+           <Box className="container px-5 py-3 border my-3 project-card">
+            <Box className="row">
+              <Box padding={"0px"} className=" col-lg-7  col-sm-12">
+                <Box>
+                  <Image
+                    h={"100%"}
+                    objectFit={"cover"}
+                    src={require("./img/chatbot.png")}
+                  />
+                </Box>
+              </Box>
+              <Box padding={"0"} className="col-lg-5 col-sm-12">
+                <Box
+                  display={"flex"}
+                  flexDirection={"column"}
+                  border={"1px solid gray"}
+                  justifyContent={"space-evenly"}
+                  h={"100%"}
+                  className="p-2 align-items-evenly"
+                >
+                  <Box className="">
+                    <Text
+                      position={"relative"}
+                      _after={{
+                        content: '""',
+                        position: "absolute",
+                        width: ["10%", "20%", "30%"],
+                        height: ["2px", "5px", "8px"],
+                        left: "0",
+                        bottom: ["-3px", "-10px"],
+                        background:
+                          " linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6)",
+                      }}
+                      className="box-te"
+                      fontSize={["10px", "15px", "30px"]}
+                      fontWeight={"700"}
+                    >
+                     Gemini ChatBot
+                    </Text>
+                  </Box>
+                  <Box className=" icon-boxx d-flex align-items-center">
+                    <Box className=" icon-box-container">
+                      <Box className="icon-box">
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                          alt=""
+                        />
+                      </Box>
+                      <Box className="icon-box">
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                          alt=""
+                        />
+                      </Box>
+                          <Box className="icon-box">
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                          alt=""
+                        />
+                      </Box>
+                        <Box className="icon-box">
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                          alt=""
+                        />
+                      </Box>
+                    
+                    </Box>
+                  </Box>
+
+                  <Box className="">
+                    <Text fontSize={["10px", "15px"]}>
+                      A solo project built using HTML, CSS and JavaScript, React.
+                    </Text>
+                  </Box>
+                  <Box className="pt-1 d-flex">
+                    <Box
+                      w={"fit-content"}
+                      h={"fit-content"}
+                      marginRight={"10px"}
+                    >
+                      <Button
+                        as={Link}
+                        to={"https://github.com/Ramroop26/chat_bot"}
+                        className="py-1"
+                        h={"fit-content"}
+                      >
+                        <Icon fontSize={["1rem", "1.5rem"]} as={AiFillGithub} />
+                      </Button>
+                    </Box>
+                    <Box w={"fit-content"} className="">
+                      <Button
+                        as={Link}
+                        to={
+                          "https://chat-bot-nine-xi.vercel.app/"
+                        }
+                        className="py-1"
+                        h={"fit-content"}
+                      >
+                        <Icon
+                          fontSize={["1rem", "1.5rem"]}
+                          as={BiLinkExternal}
+                        />
+                      </Button>
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+            </Box>
+          </Box>
+
+           <Box className="container px-5 py-3 border my-3 project-card">
+            <Box className="row">
+              <Box padding={"0px"} className=" col-lg-7  col-sm-12">
+                <Box>
+                  <Image
+                    h={"100%"}
+                    objectFit={"cover"}
+                    src={require("./img/Railway Booking.png")}
+                  />
+                </Box>
+              </Box>
+              <Box padding={"0"} className="col-lg-5 col-sm-12">
+                <Box
+                  display={"flex"}
+                  flexDirection={"column"}
+                  border={"1px solid gray"}
+                  justifyContent={"space-evenly"}
+                  h={"100%"}
+                  className="p-2 align-items-evenly"
+                >
+                  <Box className="">
+                    <Text
+                      position={"relative"}
+                      _after={{
+                        content: '""',
+                        position: "absolute",
+                        width: ["10%", "20%", "30%"],
+                        height: ["2px", "5px", "8px"],
+                        left: "0",
+                        bottom: ["-3px", "-10px"],
+                        background:
+                          " linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6)",
+                      }}
+                      className="box-te"
+                      fontSize={["10px", "15px", "30px"]}
+                      fontWeight={"700"}
+                    >
+                     Railway Booking
+                    </Text>
+                  </Box>
+                  <Box className=" icon-boxx d-flex align-items-center">
+                    <Box className=" icon-box-container">
+                      <Box className="icon-box">
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                          alt=""
+                        />
+                      </Box>
+                      <Box className="icon-box">
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                          alt=""
+                        />
+                      </Box>
+                          <Box className="icon-box">
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                          alt=""
+                        />
+                      </Box>
+                      
+                    
+                    </Box>
+                  </Box>
+
+                  <Box className="">
+                    <Text fontSize={["10px", "15px"]}>
+                      A solo project built using HTML, CSS and JavaScript, React.
+                    </Text>
+                  </Box>
+                  <Box className="pt-1 d-flex">
+                    <Box
+                      w={"fit-content"}
+                      h={"fit-content"}
+                      marginRight={"10px"}
+                    >
+                      <Button
+                        as={Link}
+                        to={"https://github.com/Ramroop26/Project-Javascript"}
+                        className="py-1"
+                        h={"fit-content"}
+                      >
+                        <Icon fontSize={["1rem", "1.5rem"]} as={AiFillGithub} />
+                      </Button>
+                    </Box>
+                    <Box w={"fit-content"} className="">
+                      <Button
+                        as={Link}
+                        to={
+                          "https://project-javascript-beige.vercel.app/"
+                        }
+                        className="py-1"
+                        h={"fit-content"}
+                      >
+                        <Icon
+                          fontSize={["1rem", "1.5rem"]}
+                          as={BiLinkExternal}
+                        />
+                      </Button>
+                    </Box>
+                  </Box>
+                </Box>
+              </Box>
+            </Box>
+          </Box>
         </Box>
       </Box>
     </section>

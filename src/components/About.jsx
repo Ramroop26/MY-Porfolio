@@ -86,7 +86,7 @@ export default function About() {
                             <AccordionPanel pb={4}>
                               <Text textAlign={"left"}>
                                 I was born and brought up in
-                                Haridwar,Uttrakhand.
+                                Bhopal,Madhya Pradesh.
                               </Text>
                             </AccordionPanel>
                           </AccordionItem>
@@ -130,7 +130,7 @@ export default function About() {
                                 textAlign={"left"}
                                 className="accordian-text"
                               >
-                                Where do i see myself in 5 years?
+                                Where do i see myself in 4 years?
                               </Text>
                               <ChevronDownIcon fontSize="24px" />
                             </AccordionButton>

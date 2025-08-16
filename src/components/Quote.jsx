@@ -30,17 +30,22 @@ export default function Quote({ quote, author }) {
                     WebkitTextFillColor: "transparent",
                   }}
                 >
+                  
                   {quote}
                 </Text>
                 <Text textAlign="right" fontWeight="600" mt="1">
                   {author}
+                  
                 </Text>
+                Experienced Full Stack Web Developer proficient in both front-end and back-end technologies. Skilled in HTML, CSS, JavaScript, React, Node.js, and Express, with hands-on experience in database management using MongoDB and PostgreSQL. Adept at building responsive, scalable web applications and RESTful APIs, with a strong understanding of cloud deployment and agile methodologies. Passionate about writing clean, efficient code and delivering seamless user experiences.
               </Box>
             </AttentionSeeker>
 
             <Flex justify="flex-end">
               <Icon fontSize={["2rem", "3rem"]} color="#9AFDA9" as={BiSolidQuoteAltRight} />
+            
             </Flex>
+
           </Box>
         </Box>
       </Fade>
