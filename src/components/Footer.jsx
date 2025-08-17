@@ -93,7 +93,8 @@ export default function Footer() {
 
         <Box borderTop={"1px solid gray"} className="p-3">
           <Container className="d-flex justify-content-center align-items-center">
-            <Text>© 2023 Ramroop Prajapati. All rights reserved</Text>
+           <Text>© {new Date().getFullYear()} Ramroop Prajapati. All rights reserved</Text>
+
           </Container>
         </Box>
       </Box>
